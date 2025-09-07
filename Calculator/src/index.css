@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(28, 28, 28);
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.inp{
+  display: flex;
+  justify-content: center;
+
+}
+
+input {
+  background-color: rgb(28, 28, 28);
+  margin-top: 1.9em;
+  font-size: 39px;
+  width: 90vw;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  text-align: right;
+}
+
+.btn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  margin: 2em;
+  border-top: 1px solid rgb(61, 61, 61);
+}
+
+button {
+  background-color: rgb(48, 48, 48);
+  color: aliceblue;
+  border-radius: 1.2em;
+  height: 4em;
+  /* width: 4em; */
+  border: none;
+  margin: 0.3em;
+}
+
+.cal {
+  grid-column: 4/5;
+  grid-row: -2/-1;
+}
+
+.point {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.erase {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+.add {
+  grid-column: 4/5;
+  grid-row: -6/-5;
+}
+
+.sub {
+  grid-column: 4/5;
+  grid-row: -5/-4;
+}
+
+.mul {
+  grid-column: 4/5;
+  grid-row: -4/-3;
+}
+
+.div {
+  grid-column: 4/5;
+  grid-row: -3/-2;
+}
+
+.one {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.two {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.three {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.four {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.five {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.six {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.seven {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.eight {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.nine {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+.zero {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}

@@ -26,12 +26,14 @@ function Calculator() {
     return (
         <div className="con">
             <div className="inp">
-            <input value={expression} id="display" readOnly />
+                <input value={expression} id="display" readOnly />
             </div>
             <div className="btn">
                 <button className="cal" onClick={Calculate} >=</button>
                 <button onClick={Reset} >AC</button>
                 <button className="add" onClick={() => Addtodisplay("+", "+")}>+</button>
+                <button className="openP" onClick={() => Addtodisplay("(", "(")}>(</button>
+                <button className="closeP" onClick={() => Addtodisplay(")", ")")}>)</button>
                 <button className="sub" onClick={() => Addtodisplay("-", "-")}>-</button>
                 <button className="mul" onClick={() => Addtodisplay("×", "*")}>×</button>
                 <button className="div" onClick={() => Addtodisplay("÷", "/")}>÷</button>
